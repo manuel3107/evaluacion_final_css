@@ -1,0 +1,101 @@
+body {
+    font-family: "Dancing Script", cursive;
+    background-color:  #02010a;
+}
+@media only screen and (min-width: 900px){
+  #cabecera{
+    color: white;
+    background-color: #5b7989;
+    text-align: left;
+    text-shadow: 2px 2px 2px #02010a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .actual{
+    text-decoration: none;
+  }
+  #imagenes_paisajes{
+    background-color: #d5c75f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-flow: column center;
+  }
+  #imagen1{
+    filter: blur(10px);
+  }
+  #imagen2{
+    filter: grayscale(100%);
+  }
+  #imagen3{
+    filter: sepia(90%)
+  }
+  #imagen4{
+    filter: grayscale(100%);
+  }
+  #imagen6{
+    filter: grayscale(100%);
+  }
+  #pie_de_pagina{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #C6d5c5;
+    display: flex;
+    flex-flow: column center;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 900px){
+  #cabecera{
+    color: white;
+    background-color: #5b7989;
+    text-align: center;
+    text-shadow: 2px 2px 2px #02010a;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .actual{
+    text-decoration: none;
+  }
+  #imagenes_paisajes{
+    background-color: #d5c75f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-flow: column center;
+  }
+  #imagen1{
+      filter: blur(10px);
+  }
+  #imagen2{
+    filter: grayscale(100%);
+  }
+  #imagen3{
+    filter: sepia(90%)
+  }
+  #imagen4{
+    filter: grayscale(100%);
+  }
+  #imagen6{
+    filter: grayscale(100%);
+  }
+  #pie_de_pagina{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #C6d5c5;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+  
